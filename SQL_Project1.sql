@@ -26,7 +26,7 @@ ORDER BY 1, 2
 SELECT Location, Date, total_cases, Population, (total_cases/Population)*100 as CasesPercentage
 FROM Portfolio1..CovidDeaths
 WHERE Location like '%states%'
-AND WHERE continent is not null
+AND continent is not null
 ORDER BY 1, 2
 
 -- Looking at countries with highest Infection rate compared to population
